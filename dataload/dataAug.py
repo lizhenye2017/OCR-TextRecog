@@ -12,7 +12,7 @@ def ImgPIL2CV(img):
     return img
 
 def ImgPIL2CV_fast(img):
-    img = np.array(img2)[:,:,::-1]
+    img = np.array(img)[:,:,::-1]
     return img
 
 def ImgCV2PIL(img):
